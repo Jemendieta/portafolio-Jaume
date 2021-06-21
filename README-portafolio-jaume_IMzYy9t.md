@@ -6,7 +6,7 @@ Portarfoliko de Jaume desarrollado en base al taller del mismo nombre.
 
 ### 💻 Desktop
 
-<imagen aquí>
+![Image text](https://github.com/Jemendieta/portafolio-Jaume/blob/main/Thumbnail-portafolio_jaume.jpg)
 
 ## 📌 Stack
 
