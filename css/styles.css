@@ -1,8 +1,12 @@
+@import "../css/header.css";
+@import "../css/button.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   /* font-size: 62.5%; */
 }
@@ -21,13 +25,13 @@ html {
   --button: bold 12px / 22px var(--font-base);
   --caption: 12px / 19px var(--font-base);
 
-  --bg-gradient: radial-gradient(
+  --bg-gradient-blue: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
-  --bg-gradient2: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+  --bg-gradient-orange: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
 
   --purple: #310a90;
   --green: #42e2b8;
@@ -35,11 +39,6 @@ html {
 }
 /* ..............styles................ */
 body {
-  background: var(--bg-gradient);
+  background: var(--bg-gradient-blue);
   min-block-size: 100vh;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
 }
