@@ -4,15 +4,34 @@
   padding: 0;
 }
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 :root {
+  --font-base: "Poppins", sans-serif;
+
+  --headline1: bold 95px / 153px var(--font-base);
+  --headline2: bold 59px / 95px var(--font-base);
+  --headline3: bold 48px / 77px var(--font-base);
+  --headline4: bold 34px / 55px var(--font-base);
+  --headline5: bold 24px / 38px var(--font-base);
+
+  --body1: 16px / 25px var(--font-base);
+  --body2: 14px / 22px var(--font-base);
+
+  --button: bold 12px / 22px var(--font-base);
+  --caption: 12px / 19px var(--font-base);
+
   --bg-gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --bg-gradient2: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #ffffff;
 }
 /* ..............styles................ */
 body {
