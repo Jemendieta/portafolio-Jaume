@@ -1,6 +1,7 @@
 @import "../css/header.css";
 @import "../css/button.css";
 @import "../css/button-icon.css";
+@import "../css/hero.css";
 
 * {
   box-sizing: border-box;
@@ -42,4 +43,6 @@ html {
 body {
   background: var(--bg-gradient-blue);
   min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
 }
