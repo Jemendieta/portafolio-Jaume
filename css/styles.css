@@ -2,16 +2,17 @@
 @import "../css/button.css";
 @import "../css/button-icon.css";
 @import "../css/hero.css";
+@import "../css/wrapper.css";
 
-* {
+/* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
-html {
-  /* font-size: 62.5%; */
-}
+/* html {
+  font-size: 62.5%;
+} */
 :root {
   --font-base: "Poppins", sans-serif;
 
