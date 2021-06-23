@@ -6,20 +6,6 @@
   max-inline-size: 100%;
 }
 
-.description-web {
-  font: var(--headline5);
-  padding-block-start: 4px;
-  padding-block-end: 4px;
-  padding-inline-start: 8px;
-  padding-inline-end: 8px;
-  align-self: flex-start;
-  color: var(--white);
-  background: var(--purple);
-  text-decoration: none;
-  box-shadow: -4px 4px 0 rgba(255, 255, 255, 0.75);
-  /* margin-inline-start: 4px; */
-}
-
 .projects-description {
   display: flex;
   flex-direction: column;

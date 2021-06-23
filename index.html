@@ -80,7 +80,7 @@
             <img src="img/laptop-mobile.png" alt="laptop" />
           </div>
           <div class="projects-description">
-            <a href="#" class="description-web">jorgemendieta.com</a>
+            <a href="#" class="title">jorgemendieta.com</a>
             <p>
               Accede a más de 120 proyectos que te ayudarán a mejorar tus
               habilidades como desarrollador Front-End.
@@ -117,7 +117,7 @@
             <img src="img/iPad.png" alt="ipad" />
           </div>
           <div class="projects-description">
-            <a href="#" class="description-web">Marvol</a>
+            <a href="#" class="title">Marvol</a>
             <p>
               Es el sitio oficial de Marvol Entertainment. Explore películas,
               personajes, cómics, programas de televisión, videos y más
@@ -154,7 +154,7 @@
             <img src="img/Iphone.png" alt="iphone" />
           </div>
           <div class="projects-description">
-            <a href="#" class="description-web">NetNet</a>
+            <a href="#" class="title">NetNet</a>
             <p>
               Películas y series ilimitadas y mucho más. Disfruta donde quieras.
               Cancela cuando quieras.
@@ -184,27 +184,75 @@
         </section>
       </main>
 
+      <form action="" method="GET" class="form">
+        <div class="form-content">
+          <h2 class="title">Hablemos</h2>
+          <p>
+            Si está interesado en trabajar conmigo en su próximo proyecto, no
+            dude en ponerse en contacto conmigo.
+          </p>
+
+          <label for="form-name"
+            >Nombre Completo
+
+            <input
+              required
+              name="name"
+              id="form-name"
+              type="text"
+              placeholder="Jorge"
+            />
+          </label>
+          <label for="form-email"
+            >Correo electrònico
+
+            <input
+              required
+              name="email"
+              id="form-email"
+              type="email"
+              placeholder="aqui@tuemail.com"
+            />
+          </label>
+          <label for="form-message"
+            >Mensaje
+
+            <textarea
+              required
+              name="message"
+              placeholder="Tu mensaje..."
+              id="form-message"
+              cols="30"
+              rows="7"
+            ></textarea>
+          </label>
+          <button class="button" type="submit">Enviar Mensaje</button>
+        </div>
+      </form>
+
       <footer class="footer">
-        <div class="footer-logo">
-          <img src="img/logo.png" width="70" height="20" alt="logo" />
-        </div>
-        <div class="social">
-          <a class="button-icon">
-            <img src="img/icons/icon-phone.svg" alt="teléfono" />
-          </a>
-          <a class="button-icon">
-            <img src="img/icons/icon-important_mail.svg" alt="mail" />
-          </a>
-          <a class="button-icon">
-            <img src="img/icons/icon-instagram.svg" alt="instagram" />
-          </a>
-          <a class="button-icon">
-            <img src="img/icons/icon-twitter_squared.svg" alt="twitter" />
-          </a>
-        </div>
-        <div class="footer-copy">
-          <p>Hecho con el 🤍 por Jorge.</p>
-          <p>Copyright 2021 - Todos los derechos reservados.</p>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="img/logo.png" width="70" height="20" alt="logo" />
+          </div>
+          <div class="social">
+            <a class="button-icon">
+              <img src="img/icons/icon-phone.svg" alt="teléfono" />
+            </a>
+            <a class="button-icon">
+              <img src="img/icons/icon-important_mail.svg" alt="mail" />
+            </a>
+            <a class="button-icon">
+              <img src="img/icons/icon-instagram.svg" alt="instagram" />
+            </a>
+            <a class="button-icon">
+              <img src="img/icons/icon-twitter_squared.svg" alt="twitter" />
+            </a>
+          </div>
+          <div class="footer-copy">
+            <p>Hecho con el 🤍 por Jorge.</p>
+            <p>Copyright 2021 - Todos los derechos reservados.</p>
+          </div>
         </div>
       </footer>
     </div>
