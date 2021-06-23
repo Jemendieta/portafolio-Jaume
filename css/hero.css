@@ -4,6 +4,10 @@
 .hero-image {
   text-align: center;
 }
+.hero-image img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
 .hero-description {
   display: flex;
   flex-direction: column;

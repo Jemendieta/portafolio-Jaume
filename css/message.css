@@ -1,7 +1,7 @@
 .message-description {
   text-align: center;
-  /* padding-inline-start: 40px;
-  padding-inline-end: 40px; */
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
 }
 .message-description p {
   font: var(--headline5);
@@ -16,7 +16,7 @@
     text-align: center;
     padding-inline-start: 220px;
     padding-inline-end: 220px;
-    padding-block-start: 100px;
+    padding-block-start: 200px;
   }
   .message-description {
     max-width: 700px;
