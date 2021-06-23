@@ -13,9 +13,7 @@
   flex-direction: column;
   gap: 16px;
 }
-.hero-social {
-  padding-block-end: 24px;
-}
+
 .hero h1 {
   font: var(--headline3);
   margin: 0;
